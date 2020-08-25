@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
 .nav-container {
     background-color: #145374;
     display: flex;
@@ -24,4 +29,26 @@
 
 .nav-item:hover {
     cursor: pointer;
+}
+
+#main {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-item {
+    padding: 1rem;
+}
+
+@media(min-width: 481px) {
+    .nav-item {
+        font-size: 1.8rem;
+    }
 }
