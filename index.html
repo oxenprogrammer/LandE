@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Fork Me! FCC: Test Suite Template</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <header id="header" class="header">
-    <nav id="nav-bar" class="nav-container">
-      <img class="nav-item" id="header-img" class="header-img" src="" alt="" />
-      <div class="nav-link nav-item">Home</div>
-      <div class="nav-link nav-item">About</div>
-      <div class="nav-link nav-item">Contact</div>
-    </nav>
-  </header>
-  <main class="main" id="main">
-    <div class="feature">
-      <h1 class="title feature-item">Beautiful Cloth Collection</h1>
-      <div class="feature-item">
-        <h2>Huge Collection</h2>
-        <p>You have an option to buy from 1000s of products</p>
+  <body>
+    <header id="header" class="header">
+      <nav id="nav-bar" class="nav-container">
+        <img
+          class="nav-item"
+          id="header-img"
+          class="header-img"
+          src=""
+          alt=""
+        />
+        <a href="#feature" class="nav-link nav-item">Features</a>
+        <a href="#video" class="nav-link nav-item">Video</a>
+        <a href="#form" class="nav-link nav-item">Contact</a>
+      </nav>
+    </header>
+    <main class="main" id="main">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          class="email"
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required=""
+        />
+        <input
+          id="submit"
+          class="form-submit"
+          type="submit"
+          value="Get Started"
+          class="btn"
+        />
+      </form>
+      <div id="feature" class="feature">
+        <h1 class="feature-title feature-item">Beautiful Cloth Collection</h1>
+        <div class="feature-item">
+          <h2>Huge Collection</h2>
+          <p>You have an option to buy from 1000s of products</p>
+        </div>
+        <div class="feature-item">
+          <h2>Shoes</h2>
+          <p>Huge collection of shoes from top brands</p>
+        </div>
+        <div class="feature-item">
+          <h2>Jackets</h2>
+          <p>Huge collection of Jackets from top brands</p>
+        </div>
       </div>
-      <div class="feature-item">
-        <h2>Shoes</h2>
-        <p>Huge collection of shoes from top brands</p>
-      </div>
-      <div class="feature-item">
-        <h2>Jackets</h2>
-        <p>Huge collection of Jackets from top brands</p>
-      </div>
-    </div>
-    <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/aXFXgIMi0Rk" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
-      <input id="submit" type="submit" value="Get Started" class="btn">
-    </form>
-  </main>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  <script src="js/index.js"></script>
-</body>
-
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        id="video"
+        src="https://www.youtube.com/embed/aXFXgIMi0Rk"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>

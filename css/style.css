@@ -41,6 +41,10 @@ html, body {
 .feature {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
 }
 
 .feature-item {
@@ -51,4 +55,49 @@ html, body {
     .nav-item {
         font-size: 1.8rem;
     }
+}
+
+iframe {
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    border: none;
+    padding: 0.5rem 1rem .5rem 0.5rem;
+    border: grey solid 2px;
+    border-radius: 100px;
+    margin: .5rem;
+    width: 50%; 
+}
+
+.email:active,
+.email:focus,
+.email:visited {
+    outline: none;
+}
+
+.form-submit {
+    background-color: #145374;
+    border: none;
+    color: white;
+    padding: .75rem 2rem;
+    border-radius: 100px;
+}
+
+.form-submit:active,
+.form-submit:focus,
+.form-submit:visited {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
 }
